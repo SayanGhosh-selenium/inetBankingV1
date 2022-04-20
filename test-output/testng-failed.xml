@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InetBankingV1]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.inetBanking.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Internet Banking Regression Suite(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.inetBanking.testClases.TC_NewCustomerTest_002">
+        <methods>
+          <include name="addNewCustomer" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.inetBanking.testClases.TC_NewCustomerTest_002 -->
+      <class name="com.inetBanking.testClases.TC_NewAccountTest_004">
+        <methods>
+          <include name="setup"/>
+          <include name="NewAccount"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.inetBanking.testClases.TC_NewAccountTest_004 -->
+      <class name="com.inetBanking.testClases.TC_EditCustomerTest_003">
+        <methods>
+          <include name="editCustomer"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.inetBanking.testClases.TC_EditCustomerTest_003 -->
+    </classes>
+  </test> <!-- Internet Banking Regression Suite(failed) -->
+</suite> <!-- Failed suite [InetBankingV1] -->

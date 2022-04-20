@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-20T04:38:42Z" name="InetBankingV1" finished-at="2022-04-20T04:39:20Z" duration-ms="38029">
+    <groups>
+    </groups>
+    <test started-at="2022-04-20T04:38:42Z" name="Internet Banking Regression Suite" finished-at="2022-04-20T04:39:20Z" duration-ms="38029">
+      <class name="com.inetBanking.testClases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testClases.TC_LoginTest_001@145f66e3]" started-at="2022-04-20T04:38:43Z" name="setup" finished-at="2022-04-20T04:38:49Z" duration-ms="6129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.inetBanking.testClases.TC_LoginTest_001@145f66e3]" started-at="2022-04-20T04:38:49Z" name="loginTest" data-provider="LoginData" finished-at="2022-04-20T04:38:55Z" duration-ms="5121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr397222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Egasavu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBanking.testClases.TC_LoginTest_001@145f66e3]" started-at="2022-04-20T04:39:20Z" name="tearDown" finished-at="2022-04-20T04:39:20Z" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBanking.testClases.TC_LoginTest_001 -->
+      <class name="com.inetBanking.testClases.TC_NewCustomerTest_002">
+        <test-method signature="addNewCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inetBanking.testClases.TC_NewCustomerTest_002@3023df74]" started-at="2022-04-20T04:38:55Z" name="addNewCustomer" data-provider="NewCustomerData" finished-at="2022-04-20T04:39:08Z" duration-ms="13082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chotobhai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03111992]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23 DLF road]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[500123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8776281290]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[abcdefg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+      </class> <!-- com.inetBanking.testClases.TC_NewCustomerTest_002 -->
+      <class name="com.inetBanking.testClases.TC_EditCustomerTest_003">
+        <test-method signature="editCustomer()[pri:0, instance:com.inetBanking.testClases.TC_EditCustomerTest_003@313ac989]" started-at="2022-04-20T04:39:08Z" name="editCustomer" finished-at="2022-04-20T04:39:13Z" duration-ms="4788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+      </class> <!-- com.inetBanking.testClases.TC_EditCustomerTest_003 -->
+      <class name="com.inetBanking.testClases.TC_NewAccountTest_004">
+        <test-method signature="NewAccount()[pri:0, instance:com.inetBanking.testClases.TC_NewAccountTest_004@4562e04d]" started-at="2022-04-20T04:39:13Z" name="NewAccount" finished-at="2022-04-20T04:39:20Z" duration-ms="7036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewAccount -->
+      </class> <!-- com.inetBanking.testClases.TC_NewAccountTest_004 -->
+    </test> <!-- Internet Banking Regression Suite -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>
