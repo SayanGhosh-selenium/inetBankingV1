@@ -41,17 +41,17 @@ public class BaseClass {
 		
 		if (br.equals("chrome"))
 		{
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+//		    WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
 		}
 		else if(br.equals("Edge"))
 		{
-			WebDriverManager.edgedriver().setup();
+//			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
 		else if(br.equals("Firefox"))
 		{
-			WebDriverManager.firefoxdriver().setup();
+//			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 		
